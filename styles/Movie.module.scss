@@ -2,6 +2,7 @@
   color: #fff;
   position: relative;
   border-radius: 10px;
+  overflow: hidden;
   h4 {
     text-align: center;
   }
@@ -11,13 +12,12 @@
   }
   .movieInfo {
     position: absolute;
-    overflow: hidden;
+
     left: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.4);
     transform: translateY(100%);
     transition: all 0.3s linear;
-    opacity: 0;
   }
   span {
     text-transform: capitalize;
@@ -48,5 +48,4 @@
 
 .movie:hover .movieInfo {
   transform: translateY(0);
-  opacity: 1;
 }
