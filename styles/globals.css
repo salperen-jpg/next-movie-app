@@ -37,6 +37,7 @@ GLOBAL STYLES
 */
 body {
   font-family: 'Red Hat Mono', monospace;
+  background: var(--clr-primary-2);
 }
 
 a {

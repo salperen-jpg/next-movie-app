@@ -1,0 +1,52 @@
+.movie {
+  color: #fff;
+  position: relative;
+  border-radius: 10px;
+  h4 {
+    text-align: center;
+  }
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .movieInfo {
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    transform: translateY(100%);
+    transition: all 0.3s linear;
+    opacity: 0;
+  }
+  span {
+    text-transform: capitalize;
+  }
+  .icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+    margin: 0.5rem 0;
+  }
+  .iconCon {
+    background: rgba(0, 0, 0, 0.1);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon {
+    font-size: 1.5rem;
+  }
+  p {
+    line-height: 1.5;
+  }
+}
+
+.movie:hover .movieInfo {
+  transform: translateY(0);
+  opacity: 1;
+}

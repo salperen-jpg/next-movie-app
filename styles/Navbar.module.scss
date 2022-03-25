@@ -1,0 +1,21 @@
+.nav {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  color: #fff;
+
+  .navcenter {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .rightnav {
+  }
+  .navlinks {
+    display: flex;
+    gap: 1rem;
+  }
+}
